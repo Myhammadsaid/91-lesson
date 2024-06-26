@@ -1,0 +1,59 @@
+.about {
+  margin-bottom: 195px;
+}
+
+.about__title {
+  color: #3858d6;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  line-height: 19.36px;
+  text-align: center;
+}
+
+.about__text {
+  color: #1e1d1d;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.57px;
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.about__cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 47px;
+}
+
+.about__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f6f6f6;
+  border-radius: 22px;
+  padding: 30px;
+  gap: 28px;
+}
+
+.about__content {
+  max-width: 255px;
+}
+
+.about__card__text {
+  color: #1e1d1d;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+  margin-bottom: 10px;
+}
+
+.about__par {
+  color: #8b8e99;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  margin-bottom: 9px;
+}

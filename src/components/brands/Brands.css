@@ -1,0 +1,36 @@
+.brands {
+  margin-bottom: 135px;
+}
+
+.brands__cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.brands__card {
+  max-width: 354px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  background: #f6f6f6;
+  border-radius: 22px;
+  gap: 26px;
+}
+
+.brands__title {
+  color: #1e1d1d;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.57px;
+  margin-bottom: 9px;
+}
+
+.brands__text {
+  color: #8b8e99;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+}

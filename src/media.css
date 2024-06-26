@@ -1,0 +1,60 @@
+@media (max-width: 910px) {
+  #navbar-responsive {
+    position: fixed;
+    top: 73px;
+    bottom: 0;
+    left: -100%;
+    height: 100vh;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(155.28deg, #383638 2.06%, #0b0b0b 33.08%);
+    transition: 0.5s;
+  }
+
+  .menu-btn {
+    display: flex;
+  }
+  .nav__images {
+    display: none !important;
+  }
+  .contact__style {
+    padding: 20px 40px !important;
+  }
+  .contact__style img {
+    width: 200px !important;
+  }
+}
+
+@media (max-width: 754px) {
+  .contact__text {
+    text-align: center;
+  }
+  .contact__par {
+    text-align: center;
+  }
+  .contact__style {
+    justify-content: center !important;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 530px) {
+  .hero__text {
+    text-align: center !important;
+  }
+  .hero__style img {
+    width: 100%;
+  }
+  .contact__form,
+  .hero__form {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .contact__btn,
+  .hero__btn {
+    margin-top: 5px;
+    position: static;
+  }
+}
